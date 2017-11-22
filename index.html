@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mentor Education Bootstrap Theme</title>
+  <title>WLU Mathessentials</title>
   <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
   <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
@@ -102,12 +102,11 @@
         <div class="row">
           <div class="banner-text text-center">
             <div class="text-border">
-              <h2 class="text-dec">Trust & Quality</h2>
+              <h2 class="text-dec">WLU Math Topics</h2>
             </div>
             <div class="intro-para text-center quote">
-              <p class="big-text">Learning Today . . . Leading Tomorrow.</p>
-              <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium enim repellat sapiente quos architecto<br>Laudantium enim repellat sapiente quos architecto</p>
-              <a href="#footer" class="btn get-quote">GET A QUOTE</a>
+              <p class="big-text">A place to find summaries, examples and practice problems of major topics in Math courses.</p>
+              <p class="small-text">Struggling with a math concept? Need some basic rules for math topics or examples? Mathessentials has you covered.</p>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
@@ -123,16 +122,47 @@
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
-          <h2>Features</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <h2>Derivatives and Anti Derivatives</h2>
+          <p>Derivatives - gives the rate of change or slope of a function at a given point. Can be used to find slope of a line. 
+            <br> Basic Rules: 1. Constant Rule: The derivative of a constant is zero; that is, for a constant c
+            <br>2. Constant Multiple Rule: The derivative of a constant multiplied by a function is the constant multiplied by the derivative of the original function
+            <br>3. Multiple Rule: The derivative of f(ax) is given by a times the derivative of f(x)
+            <br>4. Sum/Difference Rules: The derivative of the sum of two functions is the sum of the derivatives of the two functions. Likewise, the derivative of the difference of two functions is the difference of the derivatives of the two functions.
+            <br>5. Product Rule: The derivative of the product of two functions is NOT the product of the functions' derivatives; rather, it is g(x)f'(x)+ g'(x)f(x)
+            <br>6. Quotient Rule: The derivative of the quotient of two functions is NOT the quotient of the functions' derivatives; rather, it is [g(x)f'(x)+ g'(x)f(x)]/ g'(x)^2
+            <br>7. Chain Rule: The chain rule is used to differentiate composite functions. As such, it is a vital tool for differentiating most functions of a certain complexity. It is the derivative of the outside function times the derivative of the inside function.
+            <br>
+            <br> Anti Derivatives - taking a derivative back to its original function. With antiderivatives it is important to add a plus c to the equation since any constants would have been gone due to derivation.
+            <br> Basic Rules: If the antiderivative of f(x) is F(x), and the antiderivative of g(x) is G(x) then 
+            <ul>The antiderivative of af(x) + bg(x) is aF(x) + bG(x) (for any a, b)</ul>  
+            <ul>The antiderivative of f(ax + b) is 1 a F(ax + b) As a result: </ul>
+            <li>If f(x) = (dx + b) a then F(x) = 1 d (dx+b) a+1 a+1 + C (unless a = −1) </li>
+            <li>If f(x) = 1 ax+b then F(x) = 1 a ln(ax + b) + C </li>
+            <li>If f(x) = e ax+b then F(x) = 1 a e ax+b + C </li>
+            <li>If f(x) = cos(ax + b) then F(x) = 1 a sin(ax + b) + C </li>
+            <li>If f(x) = sin(ax + b) then F(x) = − 1 a cos(ax + b) + C </li>
+            <li>If f(x) = sec2 (ax + b) then F(x) = 1 a tan(ax + b) + C</li>
+            
+          </p>
           <hr class="bottom-line">
         </div>
         <div class="feature-info">
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Latest Technologies</h4>
-                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+                <h4>Derivative Examples</h4>
+                <p>Example 1: Calculate the derivative of f(x)=3(2x-1)^2
+                  <br>f'(x) = 3(2)(2x-1)^2(2)
+                  <br> = 12(2x-1)^2
+                  <br> use the constant multiple rule, the chain rule, and the constant rule
+                </p>
+                <p><br>Example 2: Calculate the derivative of f(x) = 3(x^2 + x)(sin(e^x))
+                    <br> f'(x)= 3[(x^2+x)(sin(e^x))]
+                    <br>      = 3[(x^2+x)(sin(e^x))+ (x^2+x)(sin(e^x))]
+                    <br>      = 3[(2x+1)(sin(e^x))+(x^2+x)(e^x*sin(e^x))]
+                    <br>      = 3sin(e^x)[2x+1+e^x(x^2+x)]
+                    <br> first use constant multiple rule, then the product rule, then evaluate derivatives using the power rule and exponential rule, and then factor.
+                  </p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-css3"></i>
@@ -142,8 +172,19 @@
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Toons Background</h4>
-                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+                <h4>Anti Derivative Examples</h4>
+                  <p>Example 1: Calculate the integral for F(x)= integral from 0 to 2 of (x^2 + 1)dx
+                    <br>=(x^3/3+x)from 0 to 2
+                    <br>=((2)^3/3 + 2) - ((0)^3/3 + 0) 
+                    <br>(top limit minus bottom limit)
+                    <br>=14/3
+                    <br>
+                    <br>Example 2: Calculate the integral from 1 to 2 of F(y)= y^2 + y^-2
+                    <br>=(y^3/3)-y^-1
+                    <br>=((2^3)/3 - 1/2) - ((1^3)/3 - 1/1)
+                    <br>=(8/3)-(1/2)-(1/3)+1
+                    <br>=17/6
+                  </p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-drupal"></i>
@@ -153,8 +194,9 @@
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Award Winning Design</h4>
-                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+                <h4>Examples to try</h4>
+                <p>Derivative: <br><li>f(x)= 1/x</li> <li>f(x)= x+3(x^2)</li><li>sin(4x)</li><li>cos(x)sin(x)</li>
+                <br> Integral: <br><li>F(x)=1/(x^2)</li> <li>F(x) = x+3(x^2)</li><li>F(x)= cos(5x)</li><li>F(x)= x^4sin(x)</li></p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-trophy"></i>
@@ -168,42 +210,23 @@
   <!--/ feature-->
   <!--Organisations-->
   <section id="organisations" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <div class="orga-stru">
-              <h3>65%</h3>
-              <p>Say NO!!</p>
-              <i class="fa fa-male"></i>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <div class="orga-stru">
-              <h3>20%</h3>
-              <p>Says Yes!!</p>
-              <i class="fa fa-male"></i>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <div class="orga-stru">
-              <h3>15%</h3>
-              <p>Can't Say!!</p>
-              <i class="fa fa-male"></i>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
+
           <div class="detail-info">
             <hgroup>
-              <h3 class="det-txt"> Is inclusive quality education affordable?</h3>
-              <h4 class="sm-txt">(Revised and Updated for 2016)</h4>
+              <h3 class="det-txt"> Existance of Limits</h3>
+              <h4 class="sm-txt">Limits are the y value a function approaches at a given x value. Limits do not always exist: </h4>
+              <p>This could be due to the one-sided limits are not equal<br> The function "jumps" at the point <br> The function doesn't approach a finite value<br> Another common situation when limits do not exist involves the function "blowing up" to infinity or - infinity, then the graph is characterized by a vertical asymptote at x= c.<br> The function doesn't approach a particular value (oscillation), the general picture is that function takes on multiple values which are far away from each other, even when its argument moves closer and closer to x value.
+            </p>
             </hgroup>
-            <p class="det-p">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+            <p class="det-p">Example: 
+              <br> lim(x-> 1`)=(x^2+2x-3)/(x-1) 
+              <br> = (x-1)(x+3)/-(x-1)
+              <br> =-(x+3)
+              <br>=-4 (since x approaches 1)
+              <br> Explanation: first solve any absolute values with side x is approaching (negative or positive side), then factor as much as you can, then simplify and plug in x value at end. 
+            </p>
           </div>
-        </div>
-      </div>
-    </div>
+  
   </section>
   <!--/ Organisations-->
   <!--Cta-->
@@ -212,7 +235,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2 class="text-center">Subscribe Now</h2>
-          <p class="cta-2-txt">Sign up for our free weekly software design courses, we’ll send them right to your inbox.</p>
+          <p class="cta-2-txt">Sign up for email updates regarding any new material added to Mathessentials</p>
           <div class="cta-2-form text-center">
             <form action="#" method="post" id="workshop-newsletter-form">
               <input name="" placeholder="Enter Your Email Address" type="email">
@@ -331,19 +354,19 @@
       <div class="row">
         <div class="header-section text-center">
           <h2 class="white">See What Our Customer Are Saying?</h2>
-          <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <p class="white">Feedback from our users </p>
           <hr class="bottom-line bg-white">
         </div>
         <div class="col-md-6 col-sm-6">
           <div class="text-comment">
-            <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
-            <p class="text-name">Abraham Doe - Creative Dırector</p>
+            <p class="text-par">"Mathessentials really helped me get through first year math courses at Laurier. It was a great way to refresh on some topics throughout the course. <br> Thanks Mathessentials!"</p>
+            <p class="text-name">Sally Smith - 3rd year Laurier student in Financial Math</p>
           </div>
         </div>
         <div class="col-md-6 col-sm-6">
           <div class="text-comment">
-            <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
-            <p class="text-name">Abraham Doe - Creative Dırector</p>
+            <p class="text-par">"Was a great way to study for midterms and exams when I needed help remembering some topics the prof didnt explain enough.</p>
+            <p class="text-name">Abraham Doe - 2nd year Laurier Student in Pure Math</p>
           </div>
         </div>
       </div>
